@@ -1,0 +1,15 @@
+
+composer install
+
+composer update
+php artisan migrate
+   
+Create storage link
+
+php artisan storage:link
+
+Run Server
+php artisan serve
+Visit localhost:8000 in your browser
+
+
